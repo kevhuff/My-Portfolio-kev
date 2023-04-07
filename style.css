@@ -1,0 +1,24 @@
+/* Add styles to the container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Add styles to the cards */
+  .card {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  /* Add styles to the card content */
+  .card h3,
+  .card p {
+    margin: 0;
+  }
+
+  
+ 
