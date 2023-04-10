@@ -1,0 +1,72 @@
+body {
+  background-image: url("K._HUFFMAN_empty_dark_room_black_with_a_crt_tv_small_in_the_mid_e3deb6c7-83d7-448f-b49c-4130395c3323.png");
+  background-clip: content-box;
+  background-position: center top -350px;
+  background-attachment:fixed;
+  height: calc(100vh);
+  
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70%;
+}
+
+
+.about-me {
+  background-color: #7b7b7ba8;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 30px;
+  align-self: center;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, .2);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* adjust the number of columns and their width as needed */
+  grid-gap: 20px; /* adjust the gap between grid items as needed */
+}
+
+.card {
+  padding: 20px;
+  background-color: #7b7b7ba8;
+  border-radius: 35px;
+  box-shadow: 5px 2px 6px rgba(255,255,255,.2);
+  text-align: center;
+}
+
+
+.tabs {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  
+  flex-direction: column;
+  margin: 20px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.tab {
+  color: white;
+  font-family: "Roboto", sans-serif;
+   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
