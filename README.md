@@ -1,7 +1,7 @@
 
 # My-Portfolio
 
-Readme
+
 This repository contains a website project created using HTML, CSS. The website is designed to showcase my skills and experience in web development.
 I plan on ading more to this as i have time and learn new skills
 Project Structure
