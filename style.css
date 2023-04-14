@@ -1,24 +1,120 @@
-/* Add styles to the container */
+body {
+  background-image: url("K._HUFFMAN_empty_dark_room_black_with_a_crt_tv_small_in_the_mid_e3deb6c7-83d7-448f-b49c-4130395c3323.png");
+  background-size: cover;
+  background-position: center top -450px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  /* set color of name up top */
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70%;
+}
+
+.about-me {
+  background-color: #7b7b7ba8;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 30px;
+  align-self: center;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+}
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  /* Add styles to the cards */
-  .card {
-    background-color: #f4f4f4;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  }
-  
-  /* Add styles to the card content */
-  .card h3,
-  .card p {
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); 
+  grid-gap: 20px; /* adjust the gap between grid items */
+}
+
+.card {
+  padding: 20px;
+  background-color: #7b7b7ba8;
+  border-radius: 35px;
+  box-shadow: 5px 2px 6px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+/* fixed "nav" tabs the right side of the screen" */
+.tabs {
+  position: fixed;
+  top: 10px;
+  right: 0;
+
+  flex-direction: column;
+  margin: 20px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.tab {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* need to finish this /*add static like effect to the CRT screen * need image ref and fix pos */
+  .static {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("static.png");
+    background-repeat: repeat;
+    animation: static 1s steps(10) infinite;
   }
 
-  
- 
+    /* footer for socail media links */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+    }
+    
+    .social-media {
+      
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    .social-media a {
+      margin:  10px;
+      color: #fff;
+      font-size: 24px;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    .social-media a:hover {
+      transform: scale(1.2);
+    }
+    
+    @media screen and (max-width: 768px) {
+      /* styles for mobile devices with a maximum width of 768 pixels */
+      h1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 10vw;
+      }
+    }
+    
