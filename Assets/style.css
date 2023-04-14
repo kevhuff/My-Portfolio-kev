@@ -109,11 +109,12 @@ h1 {
       transform: scale(1.2);
     }
     
-
-@media screen and (max-width: 768px) 
-  /* styles for mobile devices with a maximum width of 768 pixels */
-  h1 {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    font-size: 10vw;
-  }
+    @media screen and (max-width: 768px) {
+      /* styles for mobile devices with a maximum width of 768 pixels */
+      h1 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        font-size: 10vw;
+      }
+    }
+    
